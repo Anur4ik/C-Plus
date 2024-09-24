@@ -4,10 +4,12 @@
 using namespace std;
 
 int main(){
-    int sum=1;
+    int multiple=1;
+    int x;
 for(int i=1;i<=10;i++){
-    sum=sum*i;
-    
+    cout << " Number :";
+    cin >> x;
+    multiple=multiple*x;
 }
- std::cout <<"Добуток натуральних чисел "<<sum ;
+ std::cout <<"Multiple number "<<multiple;
 }
