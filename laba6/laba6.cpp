@@ -4,8 +4,9 @@
 int main(){
     int last=0;
     int first=0;
-    int k,count;
-    int a=1234;
+    int a;
+    std::cout<<"Enter number:  ";
+    std::cin>>a;
     last=a%10;
  int size = 0;
  int number=a;
