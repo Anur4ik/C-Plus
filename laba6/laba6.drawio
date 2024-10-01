@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram name="Сторінка-1" id="x23zGEdrDz4SVfGFRyfK">
+    <mxGraphModel dx="2876" dy="1114" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xS3GevDPBk4NqoLoL0XK-1" target="xS3GevDPBk4NqoLoL0XK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-1" value="Початок" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="-58" y="175" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-2" value="Вводим число" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="-58" y="295" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xS3GevDPBk4NqoLoL0XK-4" target="xS3GevDPBk4NqoLoL0XK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xS3GevDPBk4NqoLoL0XK-4" target="xS3GevDPBk4NqoLoL0XK-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-4" value="Введено натуральне число&lt;div&gt;(A)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-58" y="375" width="96" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.615;entryY=0.11;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xS3GevDPBk4NqoLoL0XK-2" target="xS3GevDPBk4NqoLoL0XK-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="xS3GevDPBk4NqoLoL0XK-6" target="xS3GevDPBk4NqoLoL0XK-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="148" y="315" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="178" y="311" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-6" value="Помилка" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="108" y="405" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xS3GevDPBk4NqoLoL0XK-9" target="xS3GevDPBk4NqoLoL0XK-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-9" value="Знаходимо останнє число" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xS3GevDPBk4NqoLoL0XK-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-11" value="last=A%10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xS3GevDPBk4NqoLoL0XK-14" target="xS3GevDPBk4NqoLoL0XK-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-14" value="Знаходим кількість цифр в натуральному числі" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="695" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xS3GevDPBk4NqoLoL0XK-15" target="xS3GevDPBk4NqoLoL0XK-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-15" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;while (number &amp;gt; 0) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; number /= 10;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;size++;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="835" width="188" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xS3GevDPBk4NqoLoL0XK-17" target="xS3GevDPBk4NqoLoL0XK-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-17" value="Знаходим перше число" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-42" y="935" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xS3GevDPBk4NqoLoL0XK-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="348" y="855" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-20" value="&amp;nbsp;first = a / pow(10, size - 1);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="158" y="935" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xS3GevDPBk4NqoLoL0XK-24" target="xS3GevDPBk4NqoLoL0XK-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-24" value="Знаходимо число без першої і останої цифри" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="288" y="795" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xS3GevDPBk4NqoLoL0XK-25" target="xS3GevDPBk4NqoLoL0XK-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-25" value="&amp;nbsp;int without_first_and_last = (a - first * pow(10, size - 1)) / 10;&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="248" y="675" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xS3GevDPBk4NqoLoL0XK-29" target="xS3GevDPBk4NqoLoL0XK-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-29" value="Переставляєм числа" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="278" y="535" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xS3GevDPBk4NqoLoL0XK-33" target="xS3GevDPBk4NqoLoL0XK-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-33" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;int change_number = last * pow(10, size - 1) + without_first_and_last * 10 + first;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="478" y="535" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xS3GevDPBk4NqoLoL0XK-35" target="xS3GevDPBk4NqoLoL0XK-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-35" value="Ввиведення числа" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="578" y="715" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xS3GevDPBk4NqoLoL0XK-37" value="Кінець" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="578" y="805" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
