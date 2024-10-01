@@ -4,11 +4,8 @@
 using namespace std;
 
 int main(){
-    double x1;
-    double x2;
-    double x3;
-    double x4;
-    double x5;
+    double x1,x2,x3,x4,x5;
+  
     cout << " (x1) :";
     cin >> x1;
     cout <<  cbrt(sin(x1))+abs(5*x1-1.5)<< endl;
