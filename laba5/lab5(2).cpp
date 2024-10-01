@@ -9,7 +9,14 @@ int main(){
 for(int i=1;i<=10;i++){
     cout << " Number :";
     cin >> x;
-    multiple=multiple*x;
+    if(x<=0){
+        break;
+    
+    }
+    else{
+    multiple=multiple*x;    
+    }
+    
 }
  std::cout <<"Multiple number "<<multiple;
 }
