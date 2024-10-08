@@ -10,13 +10,16 @@ for(int i=1;i<=10;i++){
     cout << " Number :";
     cin >> x;
     if(x<=0){
-        break;
-    
+      multiple=0;
+      break;
     }
     else{
     multiple=multiple*x;    
     }
     
+}if(multiple==0){
+    std::cout <<"A non-natural number is entered";
 }
- std::cout <<"Multiple number "<<multiple;
+else{std::cout <<"Multiple number "<<multiple;}
+ 
 }
