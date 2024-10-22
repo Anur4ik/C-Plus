@@ -1,33 +1,37 @@
 #include <iostream>
 #include<math.h>
 #include <cmath> 
-void count(int c){
+using namespace std;
+void count(int c0){
     bool a=true;
-    int count=0;
+    int steps=0;
     while(a ==true){
-        count++;
-        if(c%2==0){
-            c= c/2;
-            std::cout <<c<< std::endl;
+      if(c0!=1){
+          steps++;
+        if(c0%2==0){
+            c0= c0/2;
         }
-        else if(c==1){
-            std::cout <<"sTEPS: "<<count-1<< std::endl;
-            a=false;
-        }else{
-            c =(3*c)+1;
-            std::cout <<c << std::endl;
+        else{
+            c0 =(3*c0)+1;
         }
-    }
-}
-int main() {
-    int c=0;
-    std::cout << "Введіть значення ";
-    std::cin >> c;
-    if(c>0){
-             count(c);
+        cout <<c0 << endl;
     }
     else{
-         std::cout <<"число не підходить"<< std::endl;
+         std::cout <<"sTEPS: "<<steps<< endl;
+            a=false;
+    }
+    }
+    
+}
+int main() {
+    int c0;
+    cout << "Введіть значення ";
+    cin >> c0;
+    if(c0>0){
+             count(c0);
+    }
+    else{
+         cout <<"число не підходить"<< endl;
     }
     
    
