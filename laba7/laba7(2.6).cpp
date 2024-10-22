@@ -3,10 +3,8 @@
 #include <cmath> 
 using namespace std;
 void count(int c0){
-    bool a=true;
     int steps=0;
-    while(a ==true){
-      if(c0!=1){
+    while(c0!=1){
           steps++;
         if(c0%2==0){
             c0= c0/2;
@@ -16,12 +14,7 @@ void count(int c0){
         }
         cout <<c0 << endl;
     }
-    else{
          std::cout <<"sTEPS: "<<steps<< endl;
-            a=false;
-    }
-    }
-    
 }
 int main() {
     int c0;
