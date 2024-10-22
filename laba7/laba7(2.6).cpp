@@ -18,13 +18,13 @@ void count(int c0){
 }
 int main() {
     int c0;
-    cout << "Введіть значення ";
+    cout << "Enter values ";
     cin >> c0;
     if(c0>0){
              count(c0);
     }
     else{
-         cout <<"число не підходить"<< endl;
+         cout <<"number does not match"<< endl;
     }
     
    
