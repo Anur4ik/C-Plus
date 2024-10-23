@@ -14,7 +14,7 @@ void printArray(int arr[], int size) {
 int main(void) {
     srand(time(0));
     const int m = 4;  
-    const int n = 3;  
+    const int n = 6;  
     int array[m][n];  
   for (int i = 0; i < m; ++i) {
         for (int j = 0; j < n; ++j) {
@@ -24,14 +24,13 @@ int main(void) {
         std::cout <<  std::endl;
     }
 
-    for (int i = 0; i < m; ++i) {
-        int evenCount = 0;
-        for (int j = 0; j < n; ++j) {
-            if (array[i][j] % 2 == 0) {
-                evenCount++;
-            }
+    for (int i = 0; i < n; ++i) {
+        int sum=0;
+        for (int j = 0; j < m; ++j) {
+           sum += array[j][i];   
+               
         }
-        std::cout << "Number of even numbers in row " << i + 1 << ": " << evenCount << std::endl;
+        std::cout << "Sum of even numbers in column  " << i + 1 << ": " << sum << std::endl;
     }
 
     return 0;
