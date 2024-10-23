@@ -13,8 +13,8 @@ void printArray(int arr[], int size) {
 
 int main(void) {
     srand(time(0));
-    const int m = 4;  
-    const int n = 3;  
+    const int m = 2;  
+    const int n = 2;  
     int array[m][n];  
   for (int i = 0; i < m; ++i) {
         for (int j = 0; j < n; ++j) {
@@ -23,16 +23,21 @@ int main(void) {
         }
         std::cout <<  std::endl;
     }
-
+int max=array[0][0];
+int maxRow = 0;
+int maxCol = 0;
     for (int i = 0; i < m; ++i) {
-        int evenCount = 0;
+    
         for (int j = 0; j < n; ++j) {
-            if (array[i][j] % 2 == 0) {
-                evenCount++;
-            }
+          if(max<array[i][j]){
+              max=array[i][j];
+              maxRow = i;
+              maxCol = j;
+          }   
+               
         }
-        std::cout << "Number of even numbers in row " << i + 1 << ": " << evenCount << std::endl;
     }
+ cout << "Maximum element: " << max << " (row " << maxRow << ", column " << maxCol << ")" << endl;
 
     return 0;
     
