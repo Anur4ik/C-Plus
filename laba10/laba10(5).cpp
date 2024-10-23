@@ -13,8 +13,8 @@ void printArray(int arr[], int size) {
 
 int main(void) {
     srand(time(0));
-    const int m = 2;  
-    const int n = 2;  
+    const int m = 3;  
+    const int n = 4;  
     int array[m][n];  
   for (int i = 0; i < m; ++i) {
         for (int j = 0; j < n; ++j) {
