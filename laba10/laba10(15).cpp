@@ -13,7 +13,7 @@ void printArray(int arr[], int size) {
 
 int main(void) {
     srand(time(0));
-    const int m = 4;  
+    const int m = 3;  
     const int n = 3;  
     int array[m][n];  
   for (int i = 0; i < m; ++i) {
@@ -24,15 +24,17 @@ int main(void) {
         std::cout <<  std::endl;
     }
 
+     int firstDiagonalSum = 0;
+    int secondDiagonalSum = 0;
+
     for (int i = 0; i < m; ++i) {
-        int evenCount = 0;
-        for (int j = 0; j < n; ++j) {
-            if (array[i][j] % 2 == 0) {
-                evenCount++;
-            }
-        }
-        std::cout << "Number of even numbers in row " << i + 1 << ": " << evenCount << std::endl;
+        firstDiagonalSum += array[i][i];             
+        secondDiagonalSum += array[i][n - 1 - i];  
     }
+
+    std::cout << "Sum of numbers on the first diagonal: " << firstDiagonalSum << std::endl;
+    std::cout << "Sum of numbers on the second diagonal: " << secondDiagonalSum << std::endl;
+
 
     return 0;
     
