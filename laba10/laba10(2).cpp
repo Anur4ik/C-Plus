@@ -24,14 +24,14 @@ int main(void) {
         std::cout <<  std::endl;
     }
 
-    for (int i = 0; i < m; ++i) {
+    for (int i = 0; i < n; ++i) {
         int evenCount = 0;
-        for (int j = 0; j < n; ++j) {
-            if (array[i][j] % 2 == 0) {
+        for (int j = 0; j < m; ++j) {
+            if (array[j][i] % 2 == 0) {
                 evenCount++;
             }
         }
-        std::cout << "Number of even numbers in row " << i + 1 << ": " << evenCount << std::endl;
+        std::cout << "Number of even numbers in column  " << i + 1 << ": " << evenCount << std::endl;
     }
 
     return 0;
