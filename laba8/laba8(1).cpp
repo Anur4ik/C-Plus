@@ -21,3 +21,40 @@ int main() {
     std::cout << std::endl;
     return 0;
 }
+
+
+
+
+
+
+
+
+
+#include <iostream>
+
+using namespace std;
+int main(void) {
+    int count=3;
+  int numbers[count];
+  int max;
+  
+  for (int i = 0; i < count; i++) {
+    cout << endl << "Enter value #" << i + 1 << ": ";
+    cin >> numbers[i];
+  }[3,2,1]==[2,2,1]
+  for (int j = 0; j < count-1; j++) {
+    for (int i = 0; i < count-1; i++) {
+      if (numbers[i] > numbers[i + 1]) {
+        max = numbers[i];//3
+        numbers[i] = numbers[i + 1];//[2,2,1]
+        numbers[i + 1] = max;//[2,3,1]
+      }
+    }}
+ 
+ 
+  cout << endl << "Sorted array: " << endl;
+  for (int i = 0; i < count; i++)
+    cout << numbers[i] << " ";
+  cout << endl;
+  return 0;
+}
