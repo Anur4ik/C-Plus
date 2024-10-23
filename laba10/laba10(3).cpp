@@ -30,7 +30,7 @@ int main(void) {
            sum += array[i][j];   
                
         }
-        std::cout << "Number of even numbers in column  " << i + 1 << ": " << sum << std::endl;
+        std::cout << "Sum of even numbers in raw  " << i + 1 << ": " << sum << std::endl;
     }
 
     return 0;
