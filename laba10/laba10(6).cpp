@@ -14,7 +14,7 @@ void printArray(int arr[], int size) {
 int main(void) {
     srand(time(0));
     const int m = 4;  
-    const int n = 3;  
+    const int n = 7;  
     int array[m][n];  
   for (int i = 0; i < m; ++i) {
         for (int j = 0; j < n; ++j) {
@@ -23,16 +23,21 @@ int main(void) {
         }
         std::cout <<  std::endl;
     }
-
+int min=array[0][0];
+int minRow = 0;
+int minCol = 0;
     for (int i = 0; i < m; ++i) {
-        int evenCount = 0;
+    
         for (int j = 0; j < n; ++j) {
-            if (array[i][j] % 2 == 0) {
-                evenCount++;
-            }
+          if(min>array[i][j]){
+              min=array[i][j];
+              minRow = i;
+              minCol = j;
+          }   
+               
         }
-        std::cout << "Number of even numbers in row " << i + 1 << ": " << evenCount << std::endl;
     }
+ cout << "Maximum element: " << min << " (row " << minRow << ", column " << minCol << ")" << endl;
 
     return 0;
     
