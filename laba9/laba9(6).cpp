@@ -33,6 +33,6 @@ int main(void) {
     if (zeroPos == -1) {
         cout << "The array does not contain any zeros." << endl;
     }else{
-        cout << zeroPos << endl;
+        cout <<"The first null element is at index:"<< zeroPos << endl;
     }
 }
