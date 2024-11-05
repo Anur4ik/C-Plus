@@ -1,29 +1,40 @@
+// Online C++ compiler to run C++ program online
 #include <iostream>
-
 using namespace std;
-int main(void) {
-  
-    int arr[] = { 3, -5, 1, -2, 7, -8, 4, 9, -9, 2 };
-    int n = sizeof(arr) / sizeof(arr[0]);  
-    int maxIndex = 0;
-    for (int i = 1; i < n; i++) {
-        if (arr[i] > arr[maxIndex]) {
-            maxIndex = i;
-        }
+struct Date
+{
+    int hours;
+    int minutes;
+};
+void displayTheTime(Date date){
+    
+    while(date.minutes>59){
+        date.minutes=date.minutes-60;
+        date.hours++;
+         if(date.hours>23){
+           date.hours=0;
+      }
     }
-
-    for (int i = 0; i < maxIndex; i++) {
-        if (arr[i] < 0) {
-            arr[i] = 0;
-        }
+cout<<(date.hours<10 ?"0":" " )<< date.hours << " : "<< (date.minutes<10 ?"0":" " )<<date.minutes  ;
+}
+int main() {
+    Date date;
+    int addMinute;
+    cout << "Enter hour ";
+    cin >> date.hours;
+    cout << "Enter minute ";
+    cin >> date.minutes;
+   if(date.hours<0||date.hours>24){
+    cout << "Incorrect hours entered (from 0 to 23)"<<endl;
+     if(date.minutes<0||date.minutes>60){
+    cout << "Incorrect minutes entered (from 0 to 60)"<<endl;
     }
-
-    cout << "Modified array: ";
-    for (int i = 0; i < n; i++) {
-        cout << arr[i] << " ";
-    }
-
     return 0;
- 
- 
+    }
+    cout << "Enter minute which need add ";
+    cin >> addMinute;
+    date.minutes=date.minutes+addMinute;
+    displayTheTime(date);
+     return 0;
+
 }
